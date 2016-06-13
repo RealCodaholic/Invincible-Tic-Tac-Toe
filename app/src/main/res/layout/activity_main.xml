@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttt.jasonlow.tictactoethatyouneverwin.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="@dimen/menu_title"
+        android:gravity="center"
+        android:padding="45dp"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="3x3"
+            android:textSize="@dimen/menu_btn_txt_size"
+            android:textAllCaps="false"
+            android:onClick="btn_3x3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="4x4"
+            android:textSize="@dimen/menu_btn_txt_size"
+            android:textAllCaps="false"
+            android:onClick="btn_4x4" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="5x5"
+            android:textSize="@dimen/menu_btn_txt_size"
+            android:textAllCaps="false"
+            android:onClick="btn_5x5" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watermark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/menu_watermark"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="welcome">Try your best and win the game!</string>
+    <string name="app_name">Invincible Tic Tac Toe</string>
+    <string name="watermark">Created by Codaholic 2016</string>
+</resources>
